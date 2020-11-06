@@ -41,11 +41,6 @@ Object::Object(sf::Color color, sf::Vector2f pos, sf::Vector2f size)
     rect.setPosition(pos);
 }
 
-void Object::update()
-{
-    // nothing
-}
-
 void Object::render(sf::RenderTarget &target, bool isLoaded)
 {
     if(isLoaded)
