@@ -15,6 +15,8 @@ namespace sg {
 
     public:
         Object(std::string txt, sf::Vector2f pos);
+        Object(std::string txt, sf::Vector2f pos, sf::Vector2f size);
+        Object(sf::Color color, sf::Vector2f pos, sf::Vector2f size);
         void update();
         void render(sf::RenderTarget &target, bool isLoaded);
 
